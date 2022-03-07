@@ -1,2 +1,2 @@
 # Glossary
-This repository describes and defines methods used by our research group.
+This repository contains ongoing glossaries for all subgroup methodologies used by our research group. 
