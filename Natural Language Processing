@@ -1,26 +1,28 @@
-Area under Roc Curve (AUC)
-Bootstrapping
-Confusion Matrices
-continuoues bag of words
-Data-Driven Lexicon
-F1-Score
+Area under Roc Curve (AUC) - a single scalar value that measures the overall performance of a binary classifier; true positive rate (sensitivity) as a function of false positive rate (1-specificity)
+Bootstrapping - random sampling with replacement from the available training data
+Confusion Matrices -  N x N matrix used for evaluating the performance of a classification model, where N is the number of target classes. True Positive, True Negative, False Negative, and True Negative are supplemented allowing for the calculation of Recall, Precision, Accuracy, and AUC. 
+Continuous Bag of Words (CBOW) - word embedding model architecture that tries to predict the current target word (the center word) based on the source context words (surrounding words).
+Cosine Similarity - a metric to measure the text-similarity between two documents, words or phrases after they have been converted to a vector. Calculated by the dot product of two vectors divided by the product of the two vectors' lengths (magnitude).
+Data-Driven Lexicon - a lexicon including Knowledge-Based lexicon terminology and additional terminology gathered through Word2vec word embedding trained on domain specific corpora. 
+F1-Score - Indicator of a machine learning model's performance. Calculated by the weighted average of Precision and Recall. Takes both false positives and false negatives into account.
 Health Care factor tables
 Inpatient diagnosis codes
-Knowledge-Based Lexicon
+Knowledge-Based Lexicon - a lexicon curated using UMLS terminology and subject matter expert termionology
+Lexicon - a vocabulary, a list of words or a dictionary
 Log-likelihood
-Logistic regression
+Logistic regression - a supervised learning classification algorithm used to predict the probability of a target variable.
 	elastic penalty
 	generalized linear model
-Nearest neighbor
+Nearest Neighbor - classifying a data point by looking at the nearest annotated data point based on the cosine similarity distance.
 Neural Network
 Outpatient diagnosis codes
 Outpatient VA service stopcodes
-Positive Predictive Value (PPV)
-Recall
+Positive Predictive Value (PPV) (Precision) -  Indicator of a machine learning model's performance. Calculated by the number of true positives divided by the total number of positive predictions (true positive + false positive)
+Recall (Sensitivity) - Indicator of a machine learning model's performance. Calculated by the number of true positives divided by the total number of positives (true positive + false negative)
 TIUDocuments
-Vector space
+Vector space - n-dimensional metric space where each document, word or phrase is represented by a n-dimensional vector. Allows for vector addition or scalar-vector multiplications.
 Word2Vec Parameters
 	context window
 	embedding dimensionality
 	learning rate
-  negative instance sampling
+	negative instance sampling
