@@ -19,10 +19,11 @@ Outpatient diagnosis codes
 Outpatient VA service stopcodes
 Positive Predictive Value (PPV) (Precision) -  Indicator of a machine learning model's performance. Calculated by the number of true positives divided by the total number of positive predictions (true positive + false positive)
 Recall (Sensitivity) - Indicator of a machine learning model's performance. Calculated by the number of true positives divided by the total number of positives (true positive + false negative)
-TIUDocuments
-Vector space - n-dimensional metric space where each document, word or phrase is represented by a n-dimensional vector. Allows for vector addition or scalar-vector multiplications.
+TIUDocuments - Text Integration Utility (TIU) documents found exclusively within the Veterans Affairs database
+Vector space - n-dimensional metric space where each document, word or phrase is represented by a n-dimensional vector. Allows for vector addition or scalar-vector multiplications. Learned through optimizing a neural network by maximizing the log-likelihood probabilities of observing frequently co-occurring words and phrases.
 Word2Vec Parameters
 	context window
 	embedding dimensionality
 	learning rate
 	negative instance sampling
+	Word2Phrase - algorithm that progressively joins frequently adjacent pairs of words with an '_' character. Can be used multiple times to create multiword phrases known as n-grams.
