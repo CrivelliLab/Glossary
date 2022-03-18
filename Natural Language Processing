@@ -9,12 +9,12 @@ Health Care factor tables
 Inpatient diagnosis codes
 Knowledge-Based Lexicon - a lexicon curated using UMLS terminology and subject matter expert termionology
 Lexicon - a vocabulary, a list of words or a dictionary
-Log-likelihood
+Log-likelihood - a way to measure the goodness of fit for a model; 
 Logistic regression - a supervised learning classification algorithm used to predict the probability of a target variable.
 	elastic penalty
 	generalized linear model
 Nearest Neighbor - classifying a data point by looking at the nearest annotated data point based on the cosine similarity distance.
-Neural Network
+Neural Network - a type of machine learning algorithm used to model complex patterns in datasets
 Outpatient diagnosis codes
 Outpatient VA service stopcodes
 Positive Predictive Value (PPV) (Precision) -  Indicator of a machine learning model's performance. Calculated by the number of true positives divided by the total number of positive predictions (true positive + false positive)
@@ -22,8 +22,8 @@ Recall (Sensitivity) - Indicator of a machine learning model's performance. Calc
 TIUDocuments - Text Integration Utility (TIU) documents found exclusively within the Veterans Affairs database
 Vector space - n-dimensional metric space where each document, word or phrase is represented by a n-dimensional vector. Allows for vector addition or scalar-vector multiplications. Learned through optimizing a neural network by maximizing the log-likelihood probabilities of observing frequently co-occurring words and phrases.
 Word2Vec Parameters
-	context window
-	embedding dimensionality
-	learning rate
-	negative instance sampling
+	context window - how many words before and after a target word are included as context words of the target word
+	embedding dimensionality - size of vectors being assigned 
+	learning rate - threshold for downsampling frequent words
+	negative instance sampling - sampling just N negative instances along with the target word instead of sampling the whole vocabulary.
 	Word2Phrase - algorithm that progressively joins frequently adjacent pairs of words with an '_' character. Can be used multiple times to create multiword phrases known as n-grams.
