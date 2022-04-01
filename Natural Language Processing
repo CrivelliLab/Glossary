@@ -5,18 +5,14 @@ Continuous Bag of Words (CBOW) - word embedding model architecture that tries to
 Cosine Similarity - a metric to measure the text-similarity between two documents, words or phrases after they have been converted to a vector. Calculated by the dot product of two vectors divided by the product of the two vectors' lengths (magnitude).
 Data-Driven Lexicon - a lexicon including Knowledge-Based lexicon terminology and additional terminology gathered through Word2vec word embedding trained on domain specific corpora. 
 F1-Score - Indicator of a machine learning model's performance. Calculated by the weighted average of Precision and Recall. Takes both false positives and false negatives into account.
-Health Care factor tables
-Inpatient diagnosis codes
 Knowledge-Based Lexicon - a lexicon curated using UMLS terminology and subject matter expert termionology
 Lexicon - a vocabulary, a list of words or a dictionary
 Log-likelihood - a way to measure the goodness of fit for a model; 
 Logistic regression - a supervised learning classification algorithm used to predict the probability of a target variable.
-	elastic penalty
-	generalized linear model
+	elastic penalty - a regularized regression method that linearly combines the L1 and L2 penalties
+	generalized linear model - the linear model is related to the response variable via a link function and allowing the magnitude of the variance of each measurement to be a function of its predicted value.
 Nearest Neighbor - classifying a data point by looking at the nearest annotated data point based on the cosine similarity distance.
 Neural Network - a type of machine learning algorithm used to model complex patterns in datasets
-Outpatient diagnosis codes
-Outpatient VA service stopcodes
 Positive Predictive Value (PPV) (Precision) -  Indicator of a machine learning model's performance. Calculated by the number of true positives divided by the total number of positive predictions (true positive + false positive)
 Recall (Sensitivity) - Indicator of a machine learning model's performance. Calculated by the number of true positives divided by the total number of positives (true positive + false negative)
 TIUDocuments - Text Integration Utility (TIU) documents found exclusively within the Veterans Affairs database
